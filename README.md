@@ -2,6 +2,8 @@
 
 A modern movie discovery web app built with React + TypeScript, powered by [The Movie Database (TMDb) API](https://www.themoviedb.org/).
 
+🚀 **Live demo:** [cinemax-app-project.netlify.app](https://cinemax-app-project.netlify.app/)
+
 ## Features
 
 - **Home page** — hero backdrop of a featured movie, 12 categorized horizontal carousels: Popular, Trending, Top Rated, Upcoming, and 8 genre-based lists
@@ -12,23 +14,23 @@ A modern movie discovery web app built with React + TypeScript, powered by [The 
 
 ## Tech Stack
 
-| Technology       | Purpose                   |
-| ---------------- | ------------------------- |
-| React 18         | UI framework              |
-| TypeScript       | Type safety               |
-| MobX             | State management          |
-| MUI (Material UI)| UI components & theming   |
-| React Router 6   | Client-side routing       |
-| Axios            | HTTP requests to TMDb API |
-| Create React App | Build tooling             |
+| Technology        | Purpose                   |
+| ----------------- | ------------------------- |
+| React 18          | UI framework              |
+| TypeScript        | Type safety               |
+| MobX              | State management          |
+| MUI (Material UI) | UI components & theming   |
+| React Router 6    | Client-side routing       |
+| Axios             | HTTP requests to TMDb API |
+| Create React App  | Build tooling             |
 
 ## Pages & Routes
 
-| Route        | Page        | Description                                      |
-| ------------ | ----------- | ------------------------------------------------ |
-| `/`          | Main Page   | Hero section + 12 movie category carousels       |
-| `/movie/:id` | Movie Page  | Full movie details, trailer, cast & similar      |
-| `/search?q=` | Search Page | Real-time search results                         |
+| Route        | Page        | Description                                 |
+| ------------ | ----------- | ------------------------------------------- |
+| `/`          | Main Page   | Hero section + 12 movie category carousels  |
+| `/movie/:id` | Movie Page  | Full movie details, trailer, cast & similar |
+| `/search?q=` | Search Page | Real-time search results                    |
 
 ## Getting Started
 
